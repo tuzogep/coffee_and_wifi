@@ -4,7 +4,6 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField, SelectField, URLField
 from wtforms.validators import DataRequired, URL
 from flask_sqlalchemy import SQLAlchemy
-import random
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
